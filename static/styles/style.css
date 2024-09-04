@@ -1,0 +1,53 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #72c9ef);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+@keyframes gradient-animation {
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1;
+    padding: 20px;
+}
+.card{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.card:hover{
+    transform: translateY(-3px);
+}
+.card img{
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body{
+    background-color: #f8f9fa;
+}
+.img-thumbnail{
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}

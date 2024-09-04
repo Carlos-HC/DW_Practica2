@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset= "UTF-8">
+        <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+        <title>Yomsush</title>
+        <link rel= "stylesheet" href= "https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> 
+        <link rel= "stylesheet" href= "static/styles/style.css">
+        <script src= "https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+        <script src= "https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src= "https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    </head>
+</html>
+<body>
+
+    <header class= "gradient-background"> 
+        <div class= "container">
+            <!--<h1 class= "display-4 text-center">Yomsush</h1>-->
+            <img src ="static/images/logo.png" alt="Logotipo de la tienda" class= "img-fluid mx-auto d-block col-4"> 
+        </div>
+    </header>
+
+    <nav class= "navbar navbar-expand-lg navbar-light bg-light">
+        <div class= "container">
+            <a class= "navbar-brand" href= "#">Yomsush</a>
+            <button class= "navbar-toggler" type= "button" data-toggle= "collapse" data-target= "#navbarNav" aria-controls= "navbarNav" aria-expanded= "false" aria-label= "Toggle navigation">
+                <span class= "navbar-toggler-icon"></span>
+            </button>
+            <div class= "collapse navbar-collapse" id="navbarNav">
+                <ul class= "navbar-nav">
+                    <li class= "nav-item active">
+                        <a class= "nav-link" href= "index.html">Inicio</a>
+                    </li>
+                    <li class= "nav-item">
+                        <a class= "nav-link" href= "jardin.html">Jardín</a>
+                    </li>
+                    <li class= "nav-item">
+                        <a class= "nav-link" href= "hogar.html">Hogar</a>
+                    </li>
+                    <li class= "nav-item">
+                        <a class= "nav-link" href= "cocina.html">Cocina</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class= "container mt-4"> 
+        <section>
+            <h2 class= "text-center">¡Bienvenidos a Yomsush!</h2>
+            <p>Descubre una amplia selección de productos para tu jardín, hogar y cocina.</p>
+        </section>
+
+        <section class= "row mt-4"> 
+            <div class= "col-md-4 text-center">
+                <img src= "static/images/jardin.jpg" alt= "Departamento de Jardín" class= "img-thumbnail rounded">
+                <h3>Jardín</h3>
+                <p>Herramientas, plantas, macetas y todo lo que necesitas para crear un oasis verde.</p>
+                <a href= "jardin.html" class= "btn btn-primary gradient-background">Ver catálogo</a>
+            </div>
+            <div class= "col-md-4 text-center">
+                <img src= "static/images/hogar.jpg" alt="Departamento de Hogar" class= "img-thumbnail rounded">
+                <h3>Hogar</h3>
+                <p>Muebles, decoración, textiles y accesorios para hacer de tu casa un hogar.</p>
+                <a href= "hogar.html" class= "btn btn-primary gradient-background">Ver catálogo</a>
+            </div>
+            <div class= "col-md-4 text-center">
+                <img src= "static/images/cocina.jpg" alt="Departamento de Cocina" class= "img-thumbnail rounded">
+                <h3>Cocina</h3>
+                <p>Electrodomésticos, utensilios, vajillas y todo lo necesario para disfrutar cocinando.</p>
+                <a href= "cocina.html" class= "btn btn-primary gradient-background">Ver catálogo</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class= "d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
+        <a href= "index.html" class= "mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"><img src= "static/images/logo_chico.png" width="25px"/></a>
+        <span class= "mb-3 mb-md-0 text-body-secondary">&copy; 2024 Yomsush</span>
+    </footer>
+</body>
